@@ -1,0 +1,17 @@
+# packages
+node_modules
+
+# bundle
+dist
+
+# config file
+config
+typings
+*.config.json
+*.config.js
+*.json
+
+# lock file
+package.json
+package-lock.json
+yarn.lock
