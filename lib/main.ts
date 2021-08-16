@@ -1,7 +1,3 @@
-import type { P } from './promise';
-import promise from './promise';
+import isEqual from './equal';
 
-export {
-  promise,
-  P,
-};
+export default { isEqual };

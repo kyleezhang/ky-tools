@@ -1,5 +1,5 @@
 {
-  "name": "javascript-library",
+  "name": "mini-tools",
   "version": "1.0.0",
   "description": "javascript函数工具库",
   "main": "dist/bundle.cjs.js",
@@ -28,7 +28,7 @@
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "clean": "rimraf dist",
     "build": "npm run clean && rollup --config rollup.config.js",
     "lint": "eslint lib --ext '.js,.ts' --fix"

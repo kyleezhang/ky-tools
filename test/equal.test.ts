@@ -1,6 +1,6 @@
 import isEqual from '@/equal';
 
-describe('equal', () => {
+describe('isEqual()', () => {
   test('1 and 1 is equal', () => {
     expect(isEqual(1, 1)).toBe(true);
   });
