@@ -14,4 +14,4 @@ import { isEqual } from "mini-tools";
 
 ## functions
 
-- <a href="/kyleezhang/mini-tools/master/lib/equal/README.md">isEqual</a>
+- <a href="/kyleezhang/mini-tools/blob/master/lib/equal/README.md">isEqual</a>
