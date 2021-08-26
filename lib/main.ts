@@ -1,3 +1,5 @@
 import isEqual from './equal';
+import { EventEmitter, EventEmitterOptions } from './event';
 
-export default { isEqual };
+export type { EventEmitterOptions };
+export { isEqual, EventEmitter };

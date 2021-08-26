@@ -1,6 +1,6 @@
 ## mini-tools
 
-A mini JavaScript Tools library, it provides some frequently used function in daily development.
+A mini JavaScript Tools library, it provides some frequently used functios in daily development. The whole project based on TypeScript and Rollup.
 
 ## usage
 
@@ -14,4 +14,4 @@ import { isEqual } from "mini-tools";
 
 ## functions
 
-- <a href="/kyleezhang/mini-tools/blob/master/lib/equal/README.md">isEqual</a>
+- <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/equal/README.md">isEqual</a>

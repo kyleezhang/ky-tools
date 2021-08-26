@@ -16,6 +16,7 @@
         "declaration": true,
         "declarationDir": "dist/types",
         "allowJs": true,
+        "checkJs": true,
         "baseUrl": "./",
         "paths": {
           "@/*": [
