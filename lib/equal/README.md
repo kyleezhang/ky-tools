@@ -2,7 +2,7 @@
 
 ### Usage
 
-> Determine whether two elements are equal
+> 判断输入元素是否相等
 
 ```ts
 isEqual(a: any, b: any): boolean;
