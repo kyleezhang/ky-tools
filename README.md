@@ -21,7 +21,8 @@ import { isEqual } from "mini-tools";
 - <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/equal/README.md">isEqual</a>
 - <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/event/README.md">Events</a>
 - <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/number/README.md">splitNumber</a>
-
+- <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/throttle/README.md">throttle</a>
+- <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/debounce/README.md">debounce</a>
 
 ## 测试覆盖率
 

@@ -4,7 +4,6 @@ function isObject(obj: unknown): boolean {
 
 export default function isEqual(a: unknown, b: unknown): boolean {
   if ((isObject(a) && isObject(b)) || (Array.isArray(a) && Array.isArray(b))) {
-    console.log(a, b);
     return Object.keys(a).every((key) => {
       if (!b[key]) {
         return false;
