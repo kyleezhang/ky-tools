@@ -1,12 +1,11 @@
-## mini-tools
+## ky-tools
 
-人嘛，每个月总是会有一时冲动想手写一些函数的时候，所以不如，，，直接搞一款简易版 JavaScript 常用函数工具库。
+![GitHub](https://img.shields.io/github/license/kyleezhang/mini-tools)
+![GitHub](https://img.shields.io/bundlephobia/min/ky-tools)
 
-项目采用 TypeScript + Rollup 开发完成，每个函数都有完善的单元测试，基本就这样。
+> This is a safety and simply JavaScript library of common functions, it also provides sophisticated type declarations. Last but not least, it can help you understand how this functions play by reading its accomplish.
 
-<img src="public/knowledge.gif" />
-
-## 使用方法
+## Usage
 
 ```sh
 npm install mini-tools -S
@@ -16,14 +15,11 @@ npm install mini-tools -S
 import { isEqual } from "mini-tools";
 ```
 
-## 函数列表
+## List
 
 - <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/equal/README.md">isEqual</a>
 - <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/event/README.md">Events</a>
 - <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/number/README.md">splitNumber</a>
 - <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/throttle/README.md">throttle</a>
 - <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/debounce/README.md">debounce</a>
-
-## 测试覆盖率
-
-<img src="public/coverage.jpg">
+- <a href="https://github.com/kyleezhang/mini-tools/blob/master/lib/pipe/README.md">pipe</a>

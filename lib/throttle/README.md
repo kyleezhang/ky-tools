@@ -12,6 +12,6 @@ throttle(func: (...args) => unknown, ms: number): (...args) => unknown
 
 ```js
 throttle((...args) => {
-    // TODO
-}, 1000)
+  console.log("i have been throttled");
+}, 1000);
 ```
