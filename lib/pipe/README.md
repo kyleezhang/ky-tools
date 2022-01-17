@@ -7,8 +7,7 @@
 > a function process functions like streams
 
 ```ts
-type Fn = (...args) => any
-pipe(...Fn) => Fn
+pipe(...fns: Array<(...args: unknown[]) => unknown>) => (..args: unknown[]) => unknown
 ```
 
 ### Example
