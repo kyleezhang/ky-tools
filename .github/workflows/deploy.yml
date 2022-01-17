@@ -10,7 +10,7 @@ jobs:
 
       - name: Build🔧
         run: |
-          npm install
+          npm i --legacy-peer-deps
           npm run test
 
       - name: Report
