@@ -4,11 +4,13 @@
 ![GitHub](https://img.shields.io/bundlephobia/min/ky-tools)
 
 > This is a safety and simply JavaScript library of common functions, it also provides sophisticated type declarations. Last but not least, it can help you understand how this functions play by reading its accomplish.
+> 人嘛，每个月总是会有一时冲动想手写一些函数的时候，所以,,,不如直接搞一款简易版 JavaScript 常用函数工具库。项目采用 TypeScript + Rollup 开发完成，每个函数都有完善的单元测试。
 
 ## Usage
 
 ```sh
 npm install mini-tools -S
+yarn add mini-tools
 ```
 
 ```js

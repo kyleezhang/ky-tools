@@ -1,6 +1,6 @@
 {
-  "name": "mini-tools",
-  "version": "1.0.0",
+  "name": "ky-tools",
+  "version": "1.0.0-beta.1",
   "description": "javascript函数工具库",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
