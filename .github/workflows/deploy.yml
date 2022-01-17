@@ -1,0 +1,18 @@
+name: Test & Report ky-tools
+on: push
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout🔔
+        uses: actions/checkout@master
+
+      - name: Build🔧
+        run: |
+          npm install
+          npm run test
+
+      - name: Report
+        run: |
+          npm run report-coverage

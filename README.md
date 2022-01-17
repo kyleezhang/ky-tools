@@ -2,7 +2,6 @@
 
 ![GitHub](https://img.shields.io/github/license/kyleezhang/mini-tools)
 ![GitHub](https://img.shields.io/bundlephobia/min/ky-tools)
-[![Build Status](https://app.travis-ci.com/kyleezhang/mini-tools.svg?branch=master)](https://app.travis-ci.com/kyleezhang/mini-tools)
 [![Coverage Status](https://coveralls.io/repos/github/kyleezhang/mini-tools/badge.svg?branch=master)](https://coveralls.io/github/kyleezhang/mini-tools?branch=master)
 
 > This is a safety and simply JavaScript library of common functions, it also provides sophisticated type declarations. Last but not least, it can help you understand how this functions play by reading its accomplish.
