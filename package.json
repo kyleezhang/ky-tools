@@ -30,11 +30,10 @@
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage && coveralls < coverage/lcov.info",
     "clean": "rimraf dist",
     "build": "npm run clean && rollup --config rollup.config.js",
     "lint": "eslint lib --ext '.js,.ts' --fix",
-    "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "release": "standard-version && git push --follow-tags"
   },
   "repository": {

@@ -11,8 +11,8 @@ jobs:
       - name: Build🔧
         run: |
           npm i --legacy-peer-deps
-          npm run test
 
       - name: Report
         run: |
+          npm run test
           npm run report-coverage
